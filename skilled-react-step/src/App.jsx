@@ -9,11 +9,13 @@ import UseContext from './components/useHook/UseContext'
 import MemoiZaition from './components/useHook/MemoiZaition'
 import UseMemo from './components/useHook/UseMemo'
 import { CustomHook } from './components/useHook/CustomHook'
+import { UseSelector } from './components/redux/UseSelector'
+import { ReduxTodo } from './components/redux/ReduxTodo'
 
 function App() {
   return (
     <>
-    <CustomHook />
+    <ReduxTodo />
     </>
   )
 }
