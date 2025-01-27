@@ -11,11 +11,12 @@ import UseMemo from './components/useHook/UseMemo'
 import { CustomHook } from './components/useHook/CustomHook'
 import { UseSelector } from './components/redux/UseSelector'
 import { ReduxTodo } from './components/redux/ReduxTodo'
+import { RouterApp } from './components/react-router/RouterApp'
 
 function App() {
   return (
     <>
-    <ReduxTodo />
+    <RouterApp />
     </>
   )
 }
